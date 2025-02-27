@@ -1,2 +1,3 @@
-Boot pelo USB / criar arquivo vmdk
+Boot pelo USB / criar arquivo vmdk.
+em configurações/Armazenamento deixar "Utilizar cache de I/O do hospereiro" habilitado.
 VBoxManage internalcommands createrawvmdk -filename C:\VBox\usb.vmdk -rawdisk \\.\PhysicalDrive

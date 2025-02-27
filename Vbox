@@ -1,0 +1,2 @@
+Boot pelo USB / criar arquivo vmdk
+VBoxManage internalcommands createrawvmdk -filename C:\VBox\usb.vmdk -rawdisk \\.\PhysicalDrive

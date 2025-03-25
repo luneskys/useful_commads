@@ -1,4 +1,4 @@
-# Simulação de análise detalhada do computador em loop (informações fictícias) com rolagem linha por linha
+# Simulação de análise detalhada do computador em loop (informações fictícias) com rolagem linha por linha e barras de progresso
 
 while ($true) {
     # Informações do sistema operacional
@@ -9,6 +9,10 @@ while ($true) {
     Write-Host "Arquitetura: 64-bit"
     Start-Sleep -Milliseconds 500
     Write-Host "Versão: 10.0.19042"
+    Start-Sleep -Milliseconds 500
+
+    # Barra de progresso
+    Write-Host "[##########                    ] 40%"
     Start-Sleep -Milliseconds 500
 
     # Informações da CPU
@@ -23,6 +27,10 @@ while ($true) {
     Write-Host "Velocidade Máxima: 3600 MHz"
     Start-Sleep -Milliseconds 500
 
+    # Barra de progresso
+    Write-Host "[####################          ] 70%"
+    Start-Sleep -Milliseconds 500
+
     # Informações da memória
     Write-Host "`nInformações da Memória:"
     Start-Sleep -Milliseconds 500
@@ -31,6 +39,10 @@ while ($true) {
     Write-Host "Capacidade: 16 GB"
     Start-Sleep -Milliseconds 500
     Write-Host "Velocidade: 3200 MHz"
+    Start-Sleep -Milliseconds 500
+
+    # Barra de progresso
+    Write-Host "[##############################] 100%"
     Start-Sleep -Milliseconds 500
 
     # Informações dos discos
